@@ -1,0 +1,13 @@
+site:
+  title: Technical Writing Portfolio Site
+  url: https://brandonroth92.github.io
+  start_page: portfolio::index.adoc
+content:
+  sources:
+    - url: https://github.com/brandonroth92/portfolio-component
+      branches: [v1.0]
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
