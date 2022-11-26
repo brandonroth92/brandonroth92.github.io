@@ -8,6 +8,6 @@ content:
       branches: [v1.0]
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/brandonroth92/portfolio-ui/releases/latest/download/ui-bundle.zip
     snapshot: true
 

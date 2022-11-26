@@ -1,0 +1,12 @@
+site:
+  title: Technical Writing Portfolio Site
+  url: http:localhost:5000
+  start_page: portfolio::index.adoc
+content:
+  sources:
+    - url: ../portfolio-component
+      branches: [v1.0]
+ui:
+  bundle:
+    url: ../portfolio-ui/build/ui-bundle.zip
+    snapshot: true
